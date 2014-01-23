@@ -23,7 +23,7 @@ Rectangle {
             repeat: true
             onTriggered: {
                 console.log("Seek Timer");
-                player.seek(0);
+                player.seek(5000);
             }
         }
 
